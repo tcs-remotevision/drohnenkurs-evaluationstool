@@ -23,6 +23,17 @@ module.exports = {
 	module: {
 		rules: [
 			{
+				test: /(\.m?js$)|(\.svelte$)/,
+				use: {
+				  loader: 'babel-loader',
+				  options: {
+					presets: [
+						['@babel/preset-env']
+					]
+				  }
+				}
+			},
+			{
 				test: /\.svelte$/,
 				use: {
 					loader: 'svelte-loader',

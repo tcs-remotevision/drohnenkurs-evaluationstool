@@ -14,8 +14,14 @@ button {
     border: none;
     margin: 5px;
 }
+
+.explanation {
+    font-size: 16px;
+    color: #757575;
+}
 </style>
 
 <div class="answers">
     <button on:click={() => progress.postAnswer(answer)}>{answer.answerText}</button>
+    <div class="explanation">{answer.explanationText}</div>
 </div>

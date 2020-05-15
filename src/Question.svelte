@@ -10,7 +10,7 @@ export let question
 
 .explanation {
     font-size: 16px;
-    color: #aaaaaa;
+    color: #757575;
 }
 
 .answers {
@@ -19,15 +19,11 @@ export let question
 </style>
 
 <div>
-    {#if !question}
-        <div>Laden...</div>
-    {:else}
-        <div class="title">{question.questionText}</div>
-        <div class="explanation">{question.explanationText}</div>
-        <div class="answers">
-            {#each question.answers as answer}
-                <Answer answer={answer} />
-            {/each}
-        </div>
-    {/if}
+    <div class="title">{question.questionText}</div>
+    <div class="explanation">{question.explanationText}</div>
+    <div class="answers">
+        {#each question.answers as answer}
+            <Answer answer={answer} />
+        {/each}
+    </div>
 </div>

@@ -19,7 +19,7 @@ export let question
 </style>
 
 <div>
-    {#if question === false}
+    {#if !question}
         <div>Laden...</div>
     {:else}
         <div class="title">{question.questionText}</div>

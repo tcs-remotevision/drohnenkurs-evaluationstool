@@ -1,19 +1,12 @@
 <script>
-import { onMount } from "svelte"
-
-let allData = {}
-
-onMount(() => {
-	fetch("data.json").then(resp => resp.json()).then(data => {
-		allData = {
-			...data
-		}
-		console.log(allData)
-	})
-})
+import { question } from "./stores/questionStore"
+import Question from "./Question.svelte"
 </script>
 
 <style>
 </style>
 
 <h1>Hello!</h1>
+<div>
+	<Question question={$question} />
+</div>

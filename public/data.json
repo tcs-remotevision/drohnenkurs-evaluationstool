@@ -1,0 +1,495 @@
+{
+    "questions": [
+        {
+            "questionText": "Hast Du einen bestehenden Drohnen-Kompetenznachweis?",
+            "explanationText": "Für Personen mit Kompetenznachweis \"UNO\" oder \"DUE\" gelten dieselben Anforderungen von EU/BAZL, sie können aber mit kürzeren Ausbildungen erreicht werden.",
+            "answers": [
+                {
+                    "answerText": "Nein",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 0,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "SVZD UNO",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 0,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": [
+                        "passerelle-due---open-a2-praxis-training",
+                        "passerelle-due---open-a2-theorie"
+                    ]
+                },
+                {
+                    "answerText": "SVZD DUE",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 0,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": [
+                        "passerelle-due---open-a2-praxis-training",
+                        "passerelle-due---open-a2-theorie"
+                    ]
+                }
+            ]
+        },
+        {
+            "questionText": "Möchtest Du beruflich / kommerziell Drohne fliegen?",
+            "explanationText": "Es gelten dieselben Anforderungen für Hobby- oder Profi-Piloten. Bei kommerziellen Operatoren wird aber eine vertiefte Ausbildung empfohlen.",
+            "answers": [
+                {
+                    "answerText": "nein, nur als Hobby",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 0,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "Ja",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 10,
+                        "Fachausbildung": 10
+                    },
+                    "customCourseIdRecommendations": []
+                }
+            ]
+        },
+        {
+            "questionText": "In welchem Gebiet möchtest Du fliegen?",
+            "explanationText": "Nicht besiedelt: 150m Abstand zum nächsten Gebäude. Schwach besiedelt: Es dürfen sich keine unbeteiligten Personen unter der Drohne aufhalten. Dicht besiedelt: Stadt",
+            "answers": [
+                {
+                    "answerText": "Nicht besiedelt",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 0,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "Schwach besiedelt",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 20,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "Dicht besiedelt",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 50,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                }
+            ]
+        },
+        {
+            "questionText": "Möchtest Du in der Nähe von Flugplätzen fliegen?",
+            "explanationText": "Näher als 5km zu den Pisten eines Flugplatzes",
+            "answers": [
+                {
+                    "answerText": "Nein",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 0,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "Ja",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 15,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                }
+            ]
+        },
+        {
+            "questionText": "Möchtest Du höher als 120m über Grund fliegen?",
+            "explanationText": "Über 120m Abstand zum Boden erfordert eine spezifische Zulassung des Betreibers und des Piloten.",
+            "answers": [
+                {
+                    "answerText": "Nein",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 0,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "Ja",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 30,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                }
+            ]
+        },
+        {
+            "questionText": "Möchtest Du ausserhalb des Sichtbereiches fliegen (BVLOS)?",
+            "explanationText": "Flüge ohne direkten Augenkontakt des Piloten erfordern eine spezifische Zulassung des Betreibers und des Piloten",
+            "answers": [
+                {
+                    "answerText": "Nein",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 0,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "Ja",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 30,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                }
+            ]
+        },
+        {
+            "questionText": "Möchtest Du direkt über Menschen fliegen?",
+            "explanationText": "Durch Flüge über Menschen erhöht sich das Betriebsrisiko, die Anforderungen sind höher.",
+            "answers": [
+                {
+                    "answerText": "Nein",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 0,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "Über Einzelpersonen",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 10,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "Über Menschenansammlungen",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 100,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                }
+            ]
+        },
+        {
+            "questionText": "Möchtest Du in eidg. Umweltschutzgebieten fliegen?",
+            "explanationText": "Flüge in Jagdbanngebieten und Vogelschutz-Zonen erfordern hohe Kompetenz und Administration, in den meisten Fällen gibt es keine Bewilligungsmöglichkeit.",
+            "answers": [
+                {
+                    "answerText": "Nein",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 0,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "Ja",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 100,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                }
+            ]
+        },
+        {
+            "questionText": "Welche Drohne-Klasse möchtest Du einsetzen?",
+            "explanationText": "Die Drohnenklasse orientiert sich massgeblich am Gewicht der Drohne. Ausserdem spielen die Materialien, die Performance und die Flugelektronik eine Rolle.",
+            "answers": [
+                {
+                    "answerText": "C0: <250gr",
+                    "explanationText": "z. B. DJI Mavic Mini",
+                    "scores": {
+                        "Grundausbildung": 0,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "C1: 250 - 900gr",
+                    "explanationText": "z. B. DJI Mavic Air 2, Mavic 2",
+                    "scores": {
+                        "Grundausbildung": 10,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "C2: 900gr. - 4kg",
+                    "explanationText": "z. B. DJI Phantom, DJI Inspire 2",
+                    "scores": {
+                        "Grundausbildung": 20,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "C3/C4: 4 - 25kg",
+                    "explanationText": "z. b. DJI Matrice 200, DJI Matrice 300",
+                    "scores": {
+                        "Grundausbildung": 20,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "über 25kg",
+                    "explanationText": "z. B. DJI T16, DJI T20",
+                    "scores": {
+                        "Grundausbildung": 25,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "Modellflugzeug bis 25kg",
+                    "explanationText": "z. B. Eigenbau-Drohne ohne CE-Prüfung, Modell-Flugzeuge",
+                    "scores": {
+                        "Grundausbildung": 25,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                }
+            ]
+        },
+        {
+            "questionText": "Möchtest Du gefährliche Güter transportieren oder abwerfen?",
+            "explanationText": "Beim Transport von Gütern welche bei einem Crash gefährlich werden könnten, erhöht sich das Betriebsrisiko, die Anforderungen steigen.",
+            "answers": [
+                {
+                    "answerText": "Nein",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 0,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "Ja",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 30,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                }
+            ]
+        },
+        {
+            "questionText": "Interessierst Du Dich für fachspezifische Ausbildungen wie Vermessung, Video- oder Thermografie?",
+            "explanationText": "Nebst den Grundausbildungsmodulen werden Fachkurse empfohlen, um mit der Drohne bessere Resultate zu erzielen.",
+            "answers": [
+                {
+                    "answerText": "Nein",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 0,
+                        "Fachausbildung": 0
+                    },
+                    "customCourseIdRecommendations": []
+                },
+                {
+                    "answerText": "Ja",
+                    "explanationText": "",
+                    "scores": {
+                        "Grundausbildung": 0,
+                        "Fachausbildung": 15
+                    },
+                    "customCourseIdRecommendations": []
+                }
+            ]
+        }
+    ],
+    "results": {
+        "Grundausbildung": [
+            {
+                "minPoints": 0,
+                "maxPoints": 10,
+                "courseIdRecommendations": [
+                    "easadrohnengesetze",
+                    "drohnen-kurs-einsteiger"
+                ]
+            },
+            {
+                "minPoints": 11,
+                "maxPoints": 20,
+                "courseIdRecommendations": [
+                    "easadrohnengesetze",
+                    "drohnen-kurs-open-a1-and-a3"
+                ]
+            },
+            {
+                "minPoints": 21,
+                "maxPoints": 40,
+                "courseIdRecommendations": [
+                    "easadrohnengesetze",
+                    "praxis-training-open-a2"
+                ]
+            },
+            {
+                "minPoints": 41,
+                "maxPoints": 60,
+                "courseIdRecommendations": [
+                    "easadrohnengesetze",
+                    "drohnen-kurs-specific-standard-szenario-1-praxis",
+                    "drohnen-kurs-specific-standard-szenario-1-theorie",
+                    "drohnen-kurs-specific-standard-szenario-2-theorie",
+                    "drohnen-kurs-specific-standard-szenario-2-praxis"
+                ]
+            },
+            {
+                "minPoints": 61,
+                "maxPoints": 175,
+                "courseIdRecommendations": [
+                    "easadrohnengesetze"
+                ]
+            },
+            {
+                "minPoints": 176,
+                "maxPoints": 10000,
+                "courseIdRecommendations": [
+                    
+                ]
+            }
+        ],
+        "Fachausbildung": [
+            {
+                "minPoints": 0,
+                "maxPoints": 14,
+                "courseIdRecommendations": [
+
+                ]
+            },
+            {
+                "minPoints": 15,
+                "maxPoints": 29,
+                "courseIdRecommendations": [
+                    "drohnen-fotografie-basics",
+                    "drohnen-videos-basic"
+                ]
+            },
+            {
+                "minPoints": 29,
+                "maxPoints": 30,
+                "courseIdRecommendations": [
+                    "drohnen-fotografie-expert",
+                    "drohnen-videos-expert",
+                    "photogrammetrie",
+                    "thermografie"
+                ]
+            }
+        ]
+    },
+    "courses": {
+        "easadrohnengesetze": {
+            "text": "Info-Training EASA Drohnen-Gesetze",
+            "link": "https://www.drohnentraining.eu/course?courseid=easadrohnengesetze"
+        },
+        "drohnen-kurs-einsteiger": {
+            "text": "Drohnen-Kurs Einsteiger",
+            "link": "https://www.drohnentraining.eu/course?courseid=drohnen-kurs-einsteiger"
+        },
+        "drohnen-kurs-open-a1-and-a3": {
+            "text": "Drohnen-Kurs OPEN A1 & A3",
+            "link": "https://www.drohnentraining.eu/course?courseid=drohnen-kurs-open-a1-and-a3"
+        },
+        "praxis-training-open-a2": {
+            "text": "Drohnen-Kurs Praxis-Training OPEN A2",
+            "link": "https://www.drohnentraining.eu/course?courseid=praxis-training-open-a2"
+        },
+        "passerelle-due---open-a2-praxis-training": {
+            "text": "Passerelle DUE -> OPEN A2 Praxis-Training",
+            "link": "https://www.drohnentraining.eu/course?courseid=passerelle-due---open-a2-praxis-training"
+        },
+        "drohnen-kurs-specific-standard-szenario-1-praxis": {
+            "text": "Drohnen-Kurs SPECIFIC Standard Szenario 1 Praxis",
+            "link": "https://www.drohnentraining.eu/course?courseid=drohnen-kurs-specific-standard-szenario-1-praxis"
+        },
+        "drohnen-kurs-specific-standard-szenario-1-theorie": {
+            "text": "Drohnen-Kurs SPECIFIC Standard Szenario 1 Theorie",
+            "link": "https://www.drohnentraining.eu/course?courseid=drohnen-kurs-specific-standard-szenario-1-theorie"
+        },
+        "drohnen-kurs-specific-standard-szenario-2-praxis": {
+            "text": "Drohnen-Kurs SPECIFIC Standard Szenario 2 Praxis",
+            "link": "https://www.drohnentraining.eu/course?courseid=drohnen-kurs-specific-standard-szenario-2-praxis"
+        },
+        "drohnen-kurs-specific-standard-szenario-2-theorie": {
+            "text": "Drohnen-Kurs SPECIFIC Standard Szenario 2 Theorie",
+            "link": "https://www.drohnentraining.eu/course?courseid=drohnen-kurs-specific-standard-szenario-2-theorie"
+        },
+        "theorie-training-open-a2": {
+            "text": "Drohnen-Kurs Theorie-Training OPEN A2",
+            "link": "https://www.drohnentraining.eu/course?courseid=theorie-training-open-a2"
+        },
+        "passerelle-due---open-a2-theorie": {
+            "text": "Passerelle DUE -> OPEN A2 Theorie",
+            "link": "https://www.drohnentraining.eu/course?courseid=passerelle-due---open-a2-theorie"
+        },
+        "specific-standard-szenario-1-kompetenznachweis-prfung": {
+            "text": "SPECIFIC Standard Szenario 1 Kompetenznachweis-Prüfung",
+            "link": "https://www.drohnentraining.eu/course?courseid=specific-standard-szenario-1-kompetenznachweis-prfung"
+        },
+        "specific-standard-szenario-2-kompetenznachweis-prfung": {
+            "text": "SPECIFIC Standard Szenario 2 Kompetenznachweis-Prüfung",
+            "link": "https://www.drohnentraining.eu/course?courseid=specific-standard-szenario-2-kompetenznachweis-prfung"
+        },
+        "drohnen-fotografie-basics": {
+            "text": "Drohnen-Fotografie Basics",
+            "link": "https://www.drohnentraining.eu/course?courseid=drohnen-fotografie-basics"
+        },
+        "drohnen-fotografie-expert": {
+            "text": "Drohnen-Fotografie Expert",
+            "link": "https://www.drohnentraining.eu/course?courseid=drohnen-fotografie-expert"
+        },
+        "photogrammetrie": {
+            "text": "Drohnen-Photogrammetrie",
+            "link": "https://www.drohnentraining.eu/course?courseid=photogrammetrie"
+        },
+        "thermografie": {
+            "text": "Drohnen-Thermografie",
+            "link": "https://www.drohnentraining.eu/course?courseid=drohnen-thermografie"
+        },
+        "drohnen-videos-basic": {
+            "text": "Drohnen-Videos Basic",
+            "link": "https://www.drohnentraining.eu/course?courseid=drohnen-videos-basic"
+        },
+        "drohnen-videos-expert": {
+            "text": "Drohnen-Videos Expert",
+            "link": "https://www.drohnentraining.eu/course?courseid=drohnen-videos-expert"
+        }
+    }
+}

@@ -1,11 +1,15 @@
 import { writable } from "svelte/store"
 import { mapValues } from "lodash-es"
 
-function createStore() {
-    const {subscribe, update } = writable({
+function getInitialValue() {
+    return {
         currentQuestion: 0,
         currentScores: {}
-    })
+    }
+}
+
+function createStore() {
+    const {subscribe, update, set } = writable(getInitialValue())
 
     return {
         subscribe,
@@ -19,6 +23,9 @@ function createStore() {
                     currentQuestion: state.currentQuestion + 1
                 }
             })
+        },
+        reset() {
+            set(getInitialValue())
         }
     }
 }

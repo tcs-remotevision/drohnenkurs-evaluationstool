@@ -1,4 +1,5 @@
 import { writable } from "svelte/store"
+import { mapValues } from "lodash-es"
 
 function createStore() {
     const {subscribe, update } = writable({
@@ -9,11 +10,15 @@ function createStore() {
     return {
         subscribe,
         postAnswer(answer) {
-            console.log(answer)
-            update(state => ({
-                ...state,
-                currentQuestion: state.currentQuestion + 1
-            }))
+            update(state => {
+                const scores = mapValues(answer.scores, (score, domain) => {
+                    return (state.currentScores[domain] || 0) + score
+                })
+                return {
+                    currentScores: scores,
+                    currentQuestion: state.currentQuestion + 1
+                }
+            })
         }
     }
 }

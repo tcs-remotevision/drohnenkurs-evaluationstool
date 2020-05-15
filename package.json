@@ -21,6 +21,7 @@
     "dev": "webpack-dev-server --content-base public"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.8.7"
+    "@babel/polyfill": "^7.8.7",
+    "whatwg-fetch": "^3.0.0"
   }
 }

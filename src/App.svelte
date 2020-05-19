@@ -1,19 +1,20 @@
 <script>
 import { question } from "./stores/questionStore"
-import { result } from "./stores/resultStore"
-import { progress } from "./stores/progressStore"
 import Question from "./Question.svelte"
+import Result from "./Result.svelte"
 </script>
 
 <style>
+.app {
+	padding: 16px;
+	max-width: 640px;
+}
 </style>
 
-<h1>Drohnenkurs-Evaluationstool</h1>
-<div>
+<div class="app">
 {#if $question}
 	<Question question={$question} />
+{:else}
+	<Result />
 {/if}
-<div>{JSON.stringify($result)}</div>
-<div>{JSON.stringify($progress.currentScores)}</div>
-<button on:click={progress.reset}>reset</button>
 </div>

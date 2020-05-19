@@ -10,9 +10,9 @@ button {
     font-size: 14px;
     outline: none;
     cursor: pointer;
-    padding: 5px;
+    padding: 8px;
     border: none;
-    margin: 5px;
+    margin-right: 8px;
 }
 
 .explanation {

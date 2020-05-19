@@ -383,7 +383,7 @@
                 "minPoints": 176,
                 "maxPoints": 10000,
                 "courseIdRecommendations": [
-                    
+                    "keine-kurse"
                 ]
             }
         ],
@@ -418,79 +418,102 @@
     "courses": {
         "easadrohnengesetze": {
             "text": "Info-Training EASA Drohnen-Gesetze",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=easadrohnengesetze"
         },
         "drohnen-kurs-einsteiger": {
             "text": "Drohnen-Kurs Einsteiger",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=drohnen-kurs-einsteiger"
         },
         "drohnen-kurs-open-a1-and-a3": {
             "text": "Drohnen-Kurs OPEN A1 & A3",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=drohnen-kurs-open-a1-and-a3"
         },
         "praxis-training-open-a2": {
             "text": "Drohnen-Kurs Praxis-Training OPEN A2",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=praxis-training-open-a2"
         },
         "passerelle-due---open-a2-praxis-training": {
             "text": "Passerelle DUE -> OPEN A2 Praxis-Training",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=passerelle-due---open-a2-praxis-training"
         },
         "drohnen-kurs-specific-standard-szenario-1-praxis": {
             "text": "Drohnen-Kurs SPECIFIC Standard Szenario 1 Praxis",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=drohnen-kurs-specific-standard-szenario-1-praxis"
         },
         "drohnen-kurs-specific-standard-szenario-1-theorie": {
             "text": "Drohnen-Kurs SPECIFIC Standard Szenario 1 Theorie",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=drohnen-kurs-specific-standard-szenario-1-theorie"
         },
         "drohnen-kurs-specific-standard-szenario-2-praxis": {
             "text": "Drohnen-Kurs SPECIFIC Standard Szenario 2 Praxis",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=drohnen-kurs-specific-standard-szenario-2-praxis"
         },
         "drohnen-kurs-specific-standard-szenario-2-theorie": {
             "text": "Drohnen-Kurs SPECIFIC Standard Szenario 2 Theorie",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=drohnen-kurs-specific-standard-szenario-2-theorie"
         },
         "theorie-training-open-a2": {
             "text": "Drohnen-Kurs Theorie-Training OPEN A2",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=theorie-training-open-a2"
         },
         "passerelle-due---open-a2-theorie": {
             "text": "Passerelle DUE -> OPEN A2 Theorie",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=passerelle-due---open-a2-theorie"
         },
         "specific-standard-szenario-1-kompetenznachweis-prfung": {
             "text": "SPECIFIC Standard Szenario 1 Kompetenznachweis-Prüfung",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=specific-standard-szenario-1-kompetenznachweis-prfung"
         },
         "specific-standard-szenario-2-kompetenznachweis-prfung": {
             "text": "SPECIFIC Standard Szenario 2 Kompetenznachweis-Prüfung",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=specific-standard-szenario-2-kompetenznachweis-prfung"
         },
         "drohnen-fotografie-basics": {
             "text": "Drohnen-Fotografie Basics",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=drohnen-fotografie-basics"
         },
         "drohnen-fotografie-expert": {
             "text": "Drohnen-Fotografie Expert",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=drohnen-fotografie-expert"
         },
         "photogrammetrie": {
             "text": "Drohnen-Photogrammetrie",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=photogrammetrie"
         },
         "thermografie": {
             "text": "Drohnen-Thermografie",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=drohnen-thermografie"
         },
         "drohnen-videos-basic": {
             "text": "Drohnen-Videos Basic",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=drohnen-videos-basic"
         },
         "drohnen-videos-expert": {
             "text": "Drohnen-Videos Expert",
+            "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=drohnen-videos-expert"
+        },
+        "keine-kurse": {
+            "text": "Dazu gibt es bei uns keine Kurse",
+            "explanationText": "... sondern irgendwo anders"
         }
     }
 }

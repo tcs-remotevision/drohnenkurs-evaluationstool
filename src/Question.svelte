@@ -11,10 +11,12 @@ export let question
 .explanation {
     font-size: 16px;
     color: #757575;
+    margin-top: 16px;
 }
 
 .answers {
     display: flex;
+    margin-top: 16px;
 }
 </style>
 

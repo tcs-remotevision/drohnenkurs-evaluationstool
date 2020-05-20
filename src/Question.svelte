@@ -17,6 +17,13 @@ export let question
 .answers {
     display: flex;
     margin-top: 16px;
+    flex-direction: column;
+}
+
+@media (min-width: 600px) {
+  .answers {
+      flex-direction: row;
+  }
 }
 </style>
 

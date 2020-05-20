@@ -19,9 +19,15 @@ button {
     font-size: 16px;
     color: #757575;
 }
+
+.answer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
 </style>
 
-<div class="answers">
+<div class="answer">
     <button on:click={() => progress.postAnswer(answer)}>{answer.answerText}</button>
     <div class="explanation">{answer.explanationText}</div>
 </div>

@@ -390,22 +390,22 @@
         "Fachausbildung": [
             {
                 "minPoints": 0,
-                "maxPoints": 14,
+                "maxPoints": 9,
                 "courseIdRecommendations": [
 
                 ]
             },
             {
-                "minPoints": 15,
-                "maxPoints": 29,
+                "minPoints": 10,
+                "maxPoints": 14,
                 "courseIdRecommendations": [
                     "drohnen-fotografie-basics",
                     "drohnen-videos-basic"
                 ]
             },
             {
-                "minPoints": 29,
-                "maxPoints": 30,
+                "minPoints": 15,
+                "maxPoints": 25,
                 "courseIdRecommendations": [
                     "drohnen-fotografie-expert",
                     "drohnen-videos-expert",
@@ -518,6 +518,7 @@
     },
     "texts": {
         "results_title": "Kurs-Empfehlungen",
-        "result_button_text": "Einschreiben"
+        "result_button_text": "Einschreiben",
+        "custom_course_list_title": "Passerelle"
     }
 }

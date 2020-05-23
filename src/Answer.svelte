@@ -10,7 +10,7 @@ button {
     font-size: 14px;
     outline: none;
     cursor: pointer;
-    padding: 8px;
+    padding: 8px 16px;
     border: none;
     margin-right: 8px;
 }

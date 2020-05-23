@@ -4,7 +4,8 @@ import { mapValues } from "lodash-es"
 function getInitialValue() {
     return {
         currentQuestion: 0,
-        currentScores: {}
+        currentScores: {},
+        customCourseIdRecommendations: []
     }
 }
 
@@ -18,9 +19,13 @@ function createStore() {
                 const scores = mapValues(answer.scores, (score, domain) => {
                     return (state.currentScores[domain] || 0) + score
                 })
+
+                const currentQuestion = answer.customCourseIdRecommendations.length ? -1 : state.currentQuestion + 1
+                
                 return {
                     currentScores: scores,
-                    currentQuestion: state.currentQuestion + 1
+                    currentQuestion,
+                    customCourseIdRecommendations: answer.customCourseIdRecommendations
                 }
             })
         },

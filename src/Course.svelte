@@ -9,10 +9,12 @@ $: course = $config.courses[courseid]
 .course {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
 }
 
 .course > div {
-    padding: 8px;
+    padding: 8px 0;
 }
 
 a {
@@ -38,6 +40,6 @@ a {
         <div class="explanation">{course.explanationText}</div>
     </div>
     {#if course.link}
-        <a href={course.link} target="_parent">Einschreiben</a>
+        <a href={course.link} target="_parent">{$config.texts.result_button_text}</a>
     {/if}
 </div>

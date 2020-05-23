@@ -515,5 +515,9 @@
             "text": "Dazu gibt es bei uns keine Kurse",
             "explanationText": "... sondern irgendwo anders!"
         }
+    },
+    "texts": {
+        "results_title": "Kurs-Empfehlungen",
+        "result_button_text": "Einschreiben"
     }
 }

@@ -4,7 +4,8 @@ export const config = readable({
     loaded: false,
     questions: [],
     results: {},
-    courses: {}
+    courses: {},
+    texts: {}
 }, set => {
     fetch("config.json")
         .then(resp => resp.json())

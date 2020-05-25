@@ -40,6 +40,6 @@ a {
         <div class="explanation">{course.explanationText}</div>
     </div>
     {#if course.link}
-        <a href={course.link} target="_parent">{$config.texts.result_button_text}</a>
+        <a href={course.link} target="_blank">{$config.texts.result_button_text}</a>
     {/if}
 </div>

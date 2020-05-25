@@ -11,10 +11,12 @@ $: course = $config.courses[courseid]
     align-items: center;
     justify-content: space-between;
     padding: 8px 0;
+    margin-bottom: 8px;
+    background-color: rgba(255, 235, 3, 0.5);
 }
 
 .course > div {
-    padding: 8px 0;
+    padding: 8px;
 }
 
 a {

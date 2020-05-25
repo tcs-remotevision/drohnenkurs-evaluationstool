@@ -12,22 +12,32 @@ button {
     cursor: pointer;
     padding: 8px 16px;
     border: none;
-    margin-right: 8px;
 }
 
 .explanation {
     font-size: 16px;
     color: #757575;
+    margin: 8px;
 }
 
 .answer {
     display: flex;
     flex-direction: column;
     margin-bottom: 16px;
+    background-color: rgba(255, 235, 3, 0.5);
+    margin-right: 8px;
+}
+
+@media (min-width: 600px) {
+  .answer--has-explanation {
+      flex-direction: row;
+  }
 }
 </style>
 
-<div class="answer">
+<div class="answer" class:answer--has-explanation={answer.explanationText}>
     <button on:click={() => progress.postAnswer(answer)}>{answer.answerText}</button>
-    <div class="explanation">{answer.explanationText}</div>
+    {#if answer.explanationText}
+        <div class="explanation">{answer.explanationText}</div>
+    {/if}
 </div>

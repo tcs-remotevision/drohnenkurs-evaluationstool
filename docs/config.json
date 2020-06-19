@@ -347,7 +347,7 @@
             },
             {
                 "minPoints": 10,
-                "maxPoints": 30,
+                "maxPoints": 40,
                 "courseIdRecommendations": [
                     "easadrohnengesetze",
                     "drohnen-kurs-open-a1-and-a3"

@@ -346,8 +346,8 @@
                 ]
             },
             {
-                "minPoints": 10,
-                "maxPoints": 40,
+                "minPoints": 11,
+                "maxPoints": 20,
                 "courseIdRecommendations": [
                     "easadrohnengesetze",
                     "drohnen-kurs-open-a1-and-a3"
@@ -358,6 +358,7 @@
                 "maxPoints": 40,
                 "courseIdRecommendations": [
                     "easadrohnengesetze",
+                    "drohnen-kurs-open-a1-and-a3",
                     "praxis-training-open-a2"
                 ]
             },
@@ -429,8 +430,7 @@
         "drohnen-kurs-open-a1-and-a3": {
             "text": "Drohnen-Kurs OPEN A1 & A3",
             "explanationText": "",
-            "link": "https://www.drohnentraining.eu/pages/nicht-verfuegbar",
-            "link1": "https://www.drohnentraining.eu/course?courseid=drohnen-kurs-open-a1-and-a3"
+            "link": "https://www.drohnentraining.eu/pages/nicht-verfuegbar"
         },
         "praxis-training-open-a2": {
             "text": "Drohnen-Kurs Praxis-Training OPEN A2",

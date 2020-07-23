@@ -342,8 +342,8 @@
                 "maxPoints": 10,
                 "courseIdRecommendations": [
                     "easadrohnengesetze",
-                    "drohnen-kurs-einsteiger"
-                    "Schnupperkurs"
+                    "drohnen-kurs-einsteiger",
+                    "Schnupperkurs",
                     "drohnen-kurs-kompakt"
                 ]
             },
@@ -352,7 +352,7 @@
                 "maxPoints": 20,
                 "courseIdRecommendations": [
                     "easadrohnengesetze",
-                    "drohnen-kurs-kompakt"
+                    "drohnen-kurs-kompakt",
                     "drohnen-kurs-open-a1-and-a3"
                 ]
             },

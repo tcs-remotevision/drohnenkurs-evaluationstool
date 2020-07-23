@@ -343,7 +343,7 @@
                 "courseIdRecommendations": [
                     "easadrohnengesetze",
                     "drohnen-kurs-einsteiger",
-                    "Schnupperkurs",
+                    "schnupperkurs",
                     "drohnen-kurs-kompakt"
                 ]
             },
@@ -394,13 +394,13 @@
         "Fachausbildung": [
             {
                 "minPoints": 0,
-                "maxPoints": 9,
+                "maxPoints": 8,
                 "courseIdRecommendations": [
 
                 ]
             },
             {
-                "minPoints": 10,
+                "minPoints": 9,
                 "maxPoints": 29,
                 "courseIdRecommendations": [
                     "drohnen-fotografie-basic",

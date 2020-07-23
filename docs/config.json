@@ -49,7 +49,7 @@
                     "explanationText": "",
                     "scores": {
                         "Grundausbildung": 0,
-                        "Fachausbildung": 0
+                        "Fachausbildung": 10
                     },
                     "customCourseIdRecommendations": []
                 },
@@ -58,7 +58,7 @@
                     "explanationText": "",
                     "scores": {
                         "Grundausbildung": 10,
-                        "Fachausbildung": 10
+                        "Fachausbildung": 30
                     },
                     "customCourseIdRecommendations": []
                 }
@@ -343,6 +343,8 @@
                 "courseIdRecommendations": [
                     "easadrohnengesetze",
                     "drohnen-kurs-einsteiger"
+                    "Schnupperkurs"
+                    "drohnen-kurs-kompakt"
                 ]
             },
             {
@@ -350,6 +352,7 @@
                 "maxPoints": 20,
                 "courseIdRecommendations": [
                     "easadrohnengesetze",
+                    "drohnen-kurs-kompakt"
                     "drohnen-kurs-open-a1-and-a3"
                 ]
             },
@@ -398,15 +401,15 @@
             },
             {
                 "minPoints": 10,
-                "maxPoints": 14,
+                "maxPoints": 29,
                 "courseIdRecommendations": [
-                    "drohnen-fotografie-basics",
+                    "drohnen-fotografie-basic",
                     "drohnen-videos-basic"
                 ]
             },
             {
-                "minPoints": 15,
-                "maxPoints": 25,
+                "minPoints": 30,
+                "maxPoints": 50,
                 "courseIdRecommendations": [
                     "drohnen-fotografie-expert",
                     "drohnen-videos-expert",
@@ -426,6 +429,16 @@
             "text": "Drohnen-Kurs Einsteiger",
             "explanationText": "",
             "link": "https://www.drohnentraining.eu/course?courseid=drohnen-kurs-einsteiger"
+        },
+        "schnupperkurs": {
+            "text": "Drohnen Schnupper-Kurs",
+            "explanationText": "",
+            "link": "https://www.drohnen-training.ch/course?courseid=schnupperkurs"
+        },
+        "drohnen-kurs-kompakt": {
+            "text": "Drohnen-Kurs Kompakt",
+            "explanationText": "",
+            "link": "https://www.drohnen-training.ch/course?courseid=kompakt"
         },
         "drohnen-kurs-open-a1-and-a3": {
             "text": "Drohnen-Kurs OPEN A1 & A3",
@@ -492,10 +505,10 @@
             "link": "https://www.drohnentraining.eu/pages/nicht-verfuegbar",
             "link2": "https://www.drohnentraining.eu/course?courseid=specific-standard-szenario-2-kompetenznachweis-prfung"
         },
-        "drohnen-fotografie-basics": {
-            "text": "Drohnen-Fotografie Basics",
+        "drohnen-fotografie-basic": {
+            "text": "Drohnen-Fotografie Basic",
             "explanationText": "",
-            "link": "https://www.drohnentraining.eu/course?courseid=drohnen-fotografie-basics"
+            "link": "https://www.drohnen-training.ch/course?courseid=drohnen-fotografie-basics"
         },
         "drohnen-fotografie-expert": {
             "text": "Drohnen-Fotografie Expert",

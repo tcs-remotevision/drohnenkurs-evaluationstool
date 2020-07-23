@@ -19,7 +19,7 @@
                     "explanationText": "",
                     "scores": {
                         "Grundausbildung": 0,
-                        "Fachausbildung": 0
+                        "Fachausbildung": 30
                     },
                     "customCourseIdRecommendations": [
                         "passerelle-due---open-a2-praxis-training",
@@ -31,7 +31,7 @@
                     "explanationText": "",
                     "scores": {
                         "Grundausbildung": 0,
-                        "Fachausbildung": 0
+                        "Fachausbildung": 30
                     },
                     "customCourseIdRecommendations": [
                         "passerelle-due---open-a2-praxis-training",
